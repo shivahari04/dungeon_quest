@@ -154,7 +154,7 @@ def main():
         
         # TODO: Print final health, items, and total value
         if player['inventory']:
-                print(f"Your Inventory item(s) : ", ".join(player['inventory'])")   
+                print(f"Your Inventory item(s) : {+ ", ".join(player['inventory'])}")   
         else:  
                 print("\nNo items collected") 
                 
